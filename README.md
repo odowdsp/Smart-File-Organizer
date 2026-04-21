@@ -1,2 +1,17 @@
-# Smart-File-Organizer
-Personal Project. Want to use AI and Machine Learning to create an Auto-Sorter to use for my PC. This is especially useful since I often have to move tons of files around. Is also useful because of NAS, so it would be nice to be able to keep things as clean as possible.
+# AI File Sorter
+
+An intelligent file organization system that automatically sorts files and learns user behavior over time.
+
+## Current Features
+- Rule-based file sorting
+
+## Planned Features
+- Machine learning classification
+- Real-time file monitoring
+- User behavior learning
+
+## Project Structure
+- src/ → core logic
+- models/ → trained models
+- data/ → datasets
+- tests/ → unit tests
