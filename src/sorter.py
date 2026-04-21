@@ -1,11 +1,16 @@
 # src/sorter.py
 
+"""
+V0.1 - File movement logic (no automation yet)
+"""
+
 import os
 import shutil
 
+
 def move_file(file_path, category):
     """
-    V0.1 DESIGN ONLY (not running yet)
+    Moves file into category folder.
     """
 
     folder = os.path.join(os.path.dirname(file_path), category)
