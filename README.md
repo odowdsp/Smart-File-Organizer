@@ -34,3 +34,9 @@ This project is shared publicly as a learning and development exercise.
 As with any code obtained from the internet, users should exercise caution before running it in their own environments. It is recommended to review and understand the source code before execution, especially when working with file system operations.
 
 This project does not intentionally include any malicious behavior, but users are responsible for ensuring it is safe and appropriate for their own systems and use cases.
+
+## Development Approach
+
+This project is developed using a combination of manual implementation and AI-assisted tooling to support learning, exploration, and rapid iteration.
+
+All design decisions, architecture, and final validation are guided and reviewed by the project author.
