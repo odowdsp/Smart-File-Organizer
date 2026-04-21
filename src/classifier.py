@@ -1,18 +1,22 @@
-#src/classifier.py
+# src/classifier.py
+
+"""
+V0.1 - Classification logic (rule-based)
+"""
 
 def classify(file_path):
-  suffix = file_path.split(".")[-1].lower()
+    suffix = file_path.split(".")[-1].lower()
 
-  if suffix in ["jpg", "png", "jpeg"]:
-      return "Images"
-   
-  if suffix in ["pdf", "docx", "txt"]:
-      return "Documents"
+    if suffix in ["jpg", "jpeg", "png", "gif"]:
+        return "Images"
 
-  if suffix in ["py", "js", "html"]:
-      return "Code"
+    if suffix in ["pdf", "docx", "txt"]:
+        return "Documents"
 
-  if suffix in ["zip", "rar"]:
-      return "Archives"
+    if suffix in ["py", "js", "html", "css"]:
+        return "Code"
 
-  return "Other"
+    if suffix in ["zip", "rar", "tar", "gz"]:
+        return "Archives"
+
+    return "Other"
